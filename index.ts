@@ -12,7 +12,7 @@ const port: string | number = process.env.PORT || 8000;
 // Define the first Route of APP
 app.get('/', (req: Request, res: Response) => {
     // Send Hello World
-    res.send('Welcome to my supa dupa APP Express + TS + Swagger');
+    res.send('Welcome to my APP Express + nodemon + TS + Swagger');
 });
 
 // Execute APP and Listen request to PORT
