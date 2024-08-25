@@ -4,6 +4,7 @@
   "description": "Backend Node + Express + TS + Swagger",
   "main": "index.js",
   "scripts": {
+    "start:local": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,8 +16,9 @@
   ],
   "author": "@melodycious",
   "license": "ISC",
+  "homepage": "https://github.com/melodycious/code-verifier-backend#readme",
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2"
+    "dotenv": "16.4.5",
+    "express": "4.19.2"
   }
 }
