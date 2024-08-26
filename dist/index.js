@@ -13,7 +13,12 @@ const port = process.env.PORT || 8000;
 // Define the first Route of APP
 app.get('/', (req, res) => {
     // Send Hello World
-    res.send('Welcome to my APP Express + nodemon + TS + Swagger');
+    res.send('Welcome to my APP Express + Nodemon JAJA + TS + Swagger');
+});
+// Define the first Route of APP
+app.get('/hello', (req, res) => {
+    // Send Hello World
+    res.send('Hello World');
 });
 // Execute APP and Listen request to PORT
 app.listen(port, () => {
